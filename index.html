@@ -57,5 +57,18 @@
       nemo aliquid pariatur quam voluptates animi laudantium, aperiam
       consectetur nobis enim.
     </p>
+    <dl x-data="{ddIsOpen: false}">
+    </nav>
+      <dt @click="ddIsOpen =!ddIsOpen">Lorem.</dt>
+      <dd x-show="ddIsOpen">Lorem ipsum dolor sit amet.</dd>
+    </dl>
+    <dl>
+      <dt>Deleniti!</dt>
+      <dd>Provident ullam maiores asperiores excepturi!</dd>
+    </dl>
+    <dl>
+      <dt>Quod?</dt>
+      <dd>Itaque quo nihil autem tempora!</dd>
+    </dl>
   </body>
 </html>

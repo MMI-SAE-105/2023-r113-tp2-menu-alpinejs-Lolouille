@@ -25,6 +25,7 @@
       .noscroll body {
         overflow: hidden;
       }
+
     </style>
   </head>
   <body>
@@ -59,15 +60,15 @@
     </p>
     <dl x-data="{ddIsOpen: false}">
     </nav>
-      <dt @click="ddIsOpen =!ddIsOpen">Lorem.</dt>
+      <u><dt @click="ddIsOpen =!ddIsOpen">Lorem.</dt></u>
       <dd x-show="ddIsOpen">Lorem ipsum dolor sit amet.</dd>
     </dl>
     <dl x-data="{ddIsOpen: false}">
-      <dt @click="ddIsOpen=! ddIsOpen">Deleniti!</dt>
+      <u><dt @click="ddIsOpen=! ddIsOpen">Deleniti!</dt></u>
       <dd x-show="ddIsOpen">Provident ullam maiores asperiores excepturi!</dd>
     </dl>
     <dl x-data="{ddIsOpen: false}">
-      <dt @click="ddIsOpen =! ddIsOpen">Quod?</dt>
+      <u><dt @click="ddIsOpen =! ddIsOpen">Quod?</dt></u>
       <dd x-show="ddIsOpen">Itaque quo nihil autem tempora!</dd>
     </dl>
   </body>
